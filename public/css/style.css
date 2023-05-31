@@ -1,0 +1,40 @@
+* {
+    margin: auto;
+    padding: 15px;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+.wrong {
+    background-color: #ff3535;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+#valasztarolo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#kerdes {
+    border: 1px solid black;
+}
+button {
+    padding: 30px;
+    justify-content: space-between;
+}
+
+#tarolo {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (width: 600px) {
+    #valasztarolo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
